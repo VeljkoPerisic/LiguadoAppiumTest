@@ -73,6 +73,9 @@ public class AndroidAppium {
         driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.widget.ImageView[@bounds='[1182,2656][1266,2740]']")).click();
         driver.findElement(By.id("ivSettings")).click();
         System.out.println("Tutorijal za link requestove dismissovan");
+
+        // Vertical scroll
+        
         MobileElement element = (MobileElement) driver.findElement(MobileBy.AndroidUIAutomator(
                 "new UiScrollable(new UiSelector().scrollable(true))" +
                         ".scrollIntoView(new UiSelector().resourceIdMatches(\".*linguado.com.linguado:id/tvLogout.*\"))"));
