@@ -62,6 +62,20 @@ public class RegistrationTest extends AndroidAppium {
                 "RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget." +
                 "RelativeLayout[1]/android.widget.ImageView[3][@bounds='[1188,525][1356,693]']")).click();
         System.out.println("Link request tutorijal dismisovan");
+        Thread.sleep(5000);
+        driver.findElement(By.id("linguado.com.linguado:id/ivFlag")).click();
+        driver.findElement(By.id("linguado.com.linguado:id/btnMale")).click();
+        System.out.println("Male button kliknuto");
+        driver.findElement(By.id("linguado.com.linguado:id/btnGoLinguado")).click();
+        System.out.println("Male filter selektovan, filter zatvoren");
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget." +
+                "LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.viewpager.widget.ViewPager/android.widget." +
+                "RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget." +
+                "RelativeLayout[1]/android.widget.ImageView[3][@bounds='[1188,525][1356,693]']")).click();
+
+
+
 
     }
 
