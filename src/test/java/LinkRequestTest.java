@@ -8,7 +8,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-public class RegistrationTest extends AndroidAppium {
+public class LinkRequestTest extends AndroidAppium {
 
     AndroidDriver driver;
 
