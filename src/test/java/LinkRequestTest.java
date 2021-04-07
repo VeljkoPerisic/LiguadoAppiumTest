@@ -16,7 +16,6 @@ public class LinkRequestTest extends AndroidAppium {
     public void launchLinguado() throws MalformedURLException, InterruptedException {
         DesiredCapabilities cap = new DesiredCapabilities();
 
-
         cap.setCapability("deviceName", "Pixel 2");
         cap.setCapability("udid", "712KPXV1196874");
         cap.setCapability("platformName", "Android");
